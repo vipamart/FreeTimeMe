@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+  
+        <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+            <div is="header" data-role="header" data-position="fixed" data-theme="b">
+                <h3>Books</h3>
+                <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+            </div>
+            <div is="content" role="main" class="ui-content">
+                <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                    <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(221, 163, 129),rgb(228, 106, 25)); color:#fff;">Book Catagories</li>
+                </ul>
+                <div is="content" role="main" class="ui-content">
+                  <div is="grid" class="ui-grid-solo" style="height:100%; width:100%; margin:-18px">
+                    <div is="block" class="ui-block-a" style="height:100%">
+                      <img src="images/bookbanner.jpg" alt="" style="width:100%;">
+                    </div>
+                    <ul is="listview" data-role="listview" data-inset="true" style="margin:0 -15px;">
+                            <li is="listview-li" data-icon="false">
+                              <a href="https://readanybook.com/genre/science-fiction-5" target="_blank">
+                                    <img src="images/action.png" style="height:100%;">
+                                    <h2 style="margin:17px 0 0 -10px;">Science Fiction</h2>
+                              </a>
+                            </li>
+                            <li is="listview-li" data-icon="false">
+                              <a href="https://readanybook.com/genre/fantasy-6" target="_blank">
+                                    <img src="images/fantasy.png" style="height:100%;">
+                                    <h2 style="margin:17px 0 0 -10px;">Fantasy</h2>
+                              </a>
+                            </li>
+                            <li is="listview-li" data-icon="false">
+                              <a href="https://readanybook.com/genre/love-romance-1" target="_blank">
+                                    <img src="images/love.png" style="height:100%;">
+                                    <h2 style="margin:17px 0 0 -10px;">Love Comedy</h2>
+                              </a>
+                            </li>
+                            <li is="listview-li" data-icon="false">
+                              <a href="https://readanybook.com/genre/horror-7" target="_blank">
+                                    <img src="images/horror.png" style="height:100%;">
+                                    <h2 style="margin:17px 0 0 -10px;">Horror</h2>
+                              </a>
+                            </li>
+                            <li is="listview-li" data-icon="false">
+                              <a href="https://readanybook.com/genre/action-adventure-9" target="_blank">
+                                    <img src="images/adventure.png" style="height:100%;">
+                                    <h2 style="margin:17px 0 0 -10px;">Adventer</h2>
+                              </a>
+                      </ul>
+
+            <div is="footer" data-role="footer" data-position="fixed" style="background:#b22; color:#fff;text-shadow:none;">
+                <h3>@Gift FreeTimeMe Company</h3>
+            </div>
+        </div>
+</html>

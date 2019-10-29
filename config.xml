@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="tw.edu.nfu.eZTravel" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<!-- versionCode is optional and Android only -->
+  <name>FreeTimeMe</name>
+  <description>
+      An example for phonegap build APP from vipamart@gmail.com.
+  </description>
+  <author href="https://www.nfu.edu.tw/zh/" email="vipamart@gmail.com">
+      Vipamart K.
+  </author>
+  <content src="index.html" />
+  <platform name="android">
+    <icon src="res/free.png" />
+    <icon src="res/android/free.png" density="ldpi" />
+    <icon src="res/android/free.png" density="mdpi" />
+    <icon src="res/android/free.png" density="hdpi" />
+    <icon src="res/android/free.png" density="xhdpi" />
+  </platform>
+</widget>

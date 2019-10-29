@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Games</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(109, 195, 206),rgb(12, 138, 160)); color:#fff;">PC Games Lists</li>
+            </ul>
+        </div>
+        <div is="content" role="main" class="ui-content">
+          <div is="grid" class="ui-grid-solo" style="height:100%; width:100%; margin:-18px">
+            <div is="block" class="ui-block-a" style="height:100%">
+              <img src="images/gamebanner.png" alt="" style="width:100%;">
+            </div>    
+        </div>
+    </div>
+    <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+            <li is="listview-li">
+              <a href="#Content1" data-transition="slide">Player Unknown’s Battleground (PUBG)</a>
+            </li>
+            <li is="listview-li">
+              <a href="#Content2" data-transition="slide">Warcraft</a>
+            </li>
+            <li is="listview-li">
+              <a href="#Content3" data-transition="slide">Minecraft</a>
+            </li>
+            <li is="listview-li">
+              <a href="#Content4" data-transition="slide">OverWatch</a>
+            </li>
+            <li is="listview-li">
+              <a href="#Content5" data-transition="slide">Grand Theft Auto V (GTA)</a>
+            </li>
+          </ul>
+    </div>    
+      <!-- PUBG Page: Content  -->
+      <div id="Content1" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h3>list</h3>
+                <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+                <div id="PC" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Player Unknown’s Battleground (PUBG)</div>
+                <div><img src="images/pubg.jpg" style="width:100%;"></div>
+            </div>
+        </div>
+        
+        <!-- Warcraft Page: Content  -->
+        <div id="Content2" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h3>list</h3>
+                <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+                <div id="PC" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Warcraft</div>
+                <div><img src="images/warcraft.jpg" style="width:100%;"></div>
+            </div>
+        </div>
+        
+        <!-- Minecraft Page: Content  -->
+        <div id="Content3" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h3>list</h3>
+                <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+                <div id="PC" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Minecraft</div>
+                <div><img src="images/minecraft.jpg" style="width:100%;"></div>
+            </div>
+        </div>
+        
+        <!-- Overwatch Page: Content  -->
+        <div id="Content4" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h3>list</h3>
+                <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+                <div id="PC" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">OverWatch</div>
+                <div><img src="images/overwatch.jpg" style="width:100%;"></div>
+            </div>
+        </div>
+        
+        <!-- GTA Page: Content  -->
+        <div id="Content5" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h3>list</h3>
+                <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+                <div id="PC" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Player Unknown’s Battleground (PUBG)</div>
+                <div><img src="images/gta.jpg" style="width:100%;"></div>
+            </div>
+        </div>  
+    
+    
+</body>
+</html>
