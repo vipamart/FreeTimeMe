@@ -11,20 +11,18 @@
 </head>
 <body>
     
-    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
-        <div is="header" data-role="header" data-position="fixed" data-theme="b">
-            <h3>Movie Lists</h3>
+    <div is="page" id="home" data-role="page">
+        <div data-role="header" data-position="fixed" style="background:-webkit-linear-gradient(rgb(231, 117, 184),rgb(236, 56, 140));">
+            <h1 style="color:white;text-align:center;font-size:24px;">Disney Princess Lists</h1>
             <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
         </div>
+
         <div is="content" role="main" class="ui-content">
-            
-            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
-                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(231, 117, 184),rgb(236, 56, 140)); color:#fff;">Disney Princess Lists</li>
-                
+              
                 <div is="content" role="main" class="ui-content">
                     <img src="images/disneyprincess.jpg" alt="" style="width:100%;">
                 </div>
-            </ul>
+
             <ul is="listview" data-role="listview" data-inset="true" id="Disney Princess Movies" style="margin:0;">
                 <li is="listview-li">
                     <a href="#Content1" data-transition="flip">Cinderella</a>
@@ -43,7 +41,7 @@
                 </li>
             </ul>
         </div>
-        <div is="footer" data-role="footer" data-position="fixed" style="background:#b22; color:#fff;text-shadow:none;">
+        <div is="footer" data-role="footer" data-position="fixed" style="background:rgba(43, 86, 121, 0.76); color:#fff;text-shadow:none;">
             <h3>@Gift FreeTimeMe Company</h3>
         </div>
     </div>    
